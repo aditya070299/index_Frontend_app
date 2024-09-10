@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+// import LikeButton from "./components/LikeButton";
+// import ShopingCart from "./components/ShopingCart";
+// import CharacterCounter from "./components/CharacterCounter";
+// import Pagination from "./components/Pagination";
+// import SearchBar from "./components/SearchBar";
+// import ResetPasswordForm from "./components/ResetPasswordForm";
+// import DisableSubmit from "./components/DisableSubmit";
+// import FontSize from "./components/FontSize";
+// import TodList from "./components/TodList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Project For Interview Practice</h1>
+      {/* <TodList />
+      <LikeButton />
+      <ShopingCart />
+      <FontSize />
+      <DisableSubmit />
+      <ResetPasswordForm />
+      <CharacterCounter />
+      <SearchBar /> 
+      <Pagination /> */}
+    </>
   );
 }
 
